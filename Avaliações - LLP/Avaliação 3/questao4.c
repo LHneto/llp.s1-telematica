@@ -8,7 +8,6 @@ int main() {
     int contadorConsoantes = 0;
     FILE *arquivo;
 
-    // Solicita o nome do arquivo ao usuário
     printf("Qual arquivo você deseja abrir? ");
     scanf("%s", nomeArquivo);
 
