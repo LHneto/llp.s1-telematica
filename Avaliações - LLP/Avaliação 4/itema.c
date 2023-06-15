@@ -22,9 +22,9 @@ int main() {
     int rows, cols;
 
   
-    printf("Digite o número de linhas: ");
+    printf("Insira o número de linhas: ");
     scanf("%d", &rows);
-    printf("Digite o número de colunas: ");
+    printf("Insira o número de colunas: ");
     scanf("%d", &cols);
 
    
@@ -37,14 +37,14 @@ int main() {
     int** matrizC = criarMatriz(rows, cols);
 
    
-    printf("Digite os elementos da matriz A:\n");
+    printf("Insira os elementos da matriz A:\n");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             scanf("%d", &matrizA[i][j]);
         }
     }
 
-    printf("Digite os elementos da matriz B:\n");
+    printf("Insira os elementos da matriz B:\n");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             scanf("%d", &matrizB[i][j]);
@@ -52,7 +52,7 @@ int main() {
     }
 
 
-    printf("A matriz C é:\n");
+    printf("A forma da matriz C é:\n");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             printf("%d ", matrizC[i][j]);
