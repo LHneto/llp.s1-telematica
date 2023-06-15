@@ -1,5 +1,6 @@
 
-int main (){
+int main ()
+{
 
 int matriz [3][3], l, c;
 
